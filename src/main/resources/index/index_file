@@ -1,0 +1,5 @@
+create index `idx_employee` on `poc`(`_class`) where (`_class`="com.poc.couchbase.model.Employee")
+
+create index `idx_employee_companyName` on `poc`(`companyName`,`_class`) where (`_class`="com.poc.couchbase.model.Employee")
+
+

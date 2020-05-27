@@ -1,0 +1,1 @@
+select * from poc where _class='com.poc.couchbase.model.Employee'

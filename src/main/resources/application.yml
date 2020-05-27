@@ -1,0 +1,7 @@
+spring:
+  couchbase:
+     bootstrap-hosts: 127.0.0.1
+     bucket:
+       name: poc
+       password: password
+  auto-index: true
